@@ -102,12 +102,12 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
       <div className={styles.wrapper}>
         <div className={styles.logo}>
           <Logo className={styles.mainLogo} />
-          <div className={styles.subheader}>
+          {/* <div className={styles.subheader}>
             <span>powered by</span>
             <i>
               <Icon name="logoNearFull" width={44} className={styles.logo} />
             </i>
-          </div>
+          </div> */}
         </div>
         <div>
           {renderHomeNavItem()}
