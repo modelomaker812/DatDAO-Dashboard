@@ -4,10 +4,11 @@
 .root {
   @include card-shadow;
   height: 440px;
-  max-width: 458px;
-  min-width: 270px;
+  // max-width: 458px;
+  // min-width: 270px;
   transition: box-shadow 0.4s;
   width: 100%;
+  margin-bottom: 20px;
 
   &:hover {
     box-shadow: 3px 2px 24px var(--color-black-opacity-25);

@@ -50,9 +50,9 @@ export const AppFooter: FC<AppFooterProps> = ({
     >
       <div className={styles.side}>
         <div className={styles.wrapper}>
-          <div className={styles.social}>
+          {/* <div className={styles.social}>
             {renderSocialIcon(
-              'https://discord.com/invite/KmMqF4KNBM',
+              'https://discord.gg/mnmeJPNBJg',
               'socialDiscord'
             )}
             {renderSocialIcon('https://twitter.com/AstroDao', 'socialTwitter')}
@@ -102,7 +102,7 @@ export const AppFooter: FC<AppFooterProps> = ({
 
           <div className={styles.locale}>
             <LocaleSelector />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
