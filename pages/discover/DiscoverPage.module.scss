@@ -19,7 +19,7 @@
 
 .header {
   align-items: flex-start;
-  background-color: var(--app-background);
+  background-color: var(--color-cyan-2);
   display: flex;
   flex-wrap: wrap;
   grid-area: header;
@@ -27,6 +27,7 @@
   padding: 24px 0 32px;
   position: relative;
   z-index: 10;
+  color: var(--color-space-1);
 
   @include tablet-portrait {
     padding: 24px 24px 32px;

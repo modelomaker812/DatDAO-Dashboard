@@ -118,7 +118,7 @@
   }
 
   &::after {
-    background-color: var(--color-brand-purple);
+    background-color: var(--color-space-1);
     height: 36px;
     transform: translateY(var(--filter-active-transform));
     transition: transform 0.15s ease-in-out;
@@ -187,7 +187,7 @@
 }
 
 .categoriesListItemSelected {
-  color: var(--color-main-dark);
+  color: var(--color-space-1);
   outline: 0;
 
   @media screen and (max-width: #{breakpoints.$screen-lg}px) {
@@ -207,7 +207,7 @@
 }
 
 .categoriesListTitle {
-  color: var(--color-main-dark);
+  color: var(--color-white);
   display: inline-block;
   font-family: var(--font-family-secondary);
   font-size: 16px;
