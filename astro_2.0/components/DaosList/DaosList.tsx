@@ -28,7 +28,7 @@ export const DaosList: FC<DaosListProps> = ({ label, children }) => {
     <div className={styles.root}>
       <div className={styles.header}>
         <h1 className={styles.title}>{t(label)}</h1>
-        <Button variant="black" size="small" onClick={handleCreateDao}>
+        <Button className={styles.button} size="small" onClick={handleCreateDao}>
           {t('createNewDao')}
         </Button>
       </div>

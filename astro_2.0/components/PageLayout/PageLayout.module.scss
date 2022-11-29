@@ -38,7 +38,8 @@
 
 .content {
   width: 100%;
-
+  background-color: var(--color-cyan-2);
+  
   &.withFixedHeader {
     padding-top: var(--app-header-height);
   }

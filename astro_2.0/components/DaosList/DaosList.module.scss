@@ -25,10 +25,15 @@
 
     @include tablet-portrait {
       margin: 0 48px 0 0;
+      color: var(--color-space-1);
     }
   }
 }
 
 .content {
   grid-area: content;
+}
+
+.button {
+  background: var(--color-cyan-4);
 }

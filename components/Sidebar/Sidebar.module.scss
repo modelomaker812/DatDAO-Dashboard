@@ -2,7 +2,7 @@
 @import 'styles/typography';
 
 .sidebar {
-  background: var(--color-brand-black);
+  background: var(--color-cyan-1);
   display: none;
   flex-direction: column;
   height: 100vh;
@@ -44,7 +44,7 @@
 }
 
 .logo {
-  background: var(--color-brand-black);
+  background: var(--color-cyan-1);
   padding: 12px 0;
   position: sticky;
   top: 0;
@@ -63,7 +63,7 @@
 }
 
 .bottom {
-  background: var(--color-brand-black);
+  background: var(--color-cyan-1);
   margin-top: auto;
   padding-bottom: 10px;
 }
@@ -73,7 +73,7 @@
 }
 
 .item {
-  background: var(--color-brand-black);
+  background: var(--color-cyan-1);
   display: flex;
   padding: 12px 32px;
 }
@@ -87,7 +87,7 @@
 .subheader {
   @extend %caption3;
   align-items: center;
-  color: var(--color-white);
+  color: var(--color-space-1);
   display: flex;
   margin: 0 32px 8px;
 
@@ -96,7 +96,7 @@
   }
 
   &:hover {
-    color: var(--color-success);
+    color: var(--color-space-1);
   }
 }
 

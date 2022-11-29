@@ -9,6 +9,8 @@
   transition: box-shadow 0.4s;
   width: 100%;
   margin-bottom: 20px;
+  background-color: var(--color-cyan-3);
+  border: 1px solid var(--color-space-1);
 
   &:hover {
     box-shadow: 3px 2px 24px var(--color-black-opacity-25);
@@ -23,6 +25,7 @@
   padding-bottom: 32px;
   position: relative;
   width: 100%;
+  color: var(--color-space-1);
 }
 
 .general {
@@ -114,6 +117,7 @@
 .addressId {
   display: inline;
   margin-right: 6px;
+  color: var(--color-space-1);
 }
 
 .copyAddress {
@@ -184,7 +188,7 @@
   }
 
   > button {
-    color: var(--color-neutral-70);
+    color: var(--color-space-1);
     width: 100%;
 
     @media (min-width: 480px) {
@@ -254,7 +258,7 @@
 }
 
 .proposalsSubtitle {
-  color: var(--color-neutral-60);
+  color: var(--color-space-1);
   margin: 0;
   white-space: nowrap;
 }
