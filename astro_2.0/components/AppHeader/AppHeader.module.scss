@@ -27,7 +27,8 @@
 
 .logo {
   display: none;
-
+  color: var(--color-space-1);
+  
   &.mobileLogo {
     display: block;
 

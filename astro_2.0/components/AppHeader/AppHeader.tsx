@@ -27,7 +27,7 @@ export const AppHeader: FC = () => {
         rel="noreferrer"
         className={cn(styles.logo, className)}
       >
-        <Icon width={100} name="appLogo" />
+        <h2>SpaceRanch DAO</h2>
       </a>
     );
   }
