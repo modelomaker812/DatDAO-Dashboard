@@ -1,4 +1,5 @@
 export const MAIN_PAGE_URL = '/';
+export const SPACE_RANCH_URL = '/dao/spaceranch.sputnikv2.testnet';
 
 export const MEMBERS_URL = '/members';
 export const BOUNTIES_URL = '/bounties';

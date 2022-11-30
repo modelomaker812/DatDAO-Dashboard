@@ -6,7 +6,7 @@ import 'assets/icons';
 
 import { CookieService } from 'services/CookieService';
 
-import { ALL_FEED_URL, MY_FEED_URL } from 'constants/routing';
+import { ALL_FEED_URL, MY_FEED_URL, SPACE_RANCH_URL } from 'constants/routing';
 import { ACCOUNT_COOKIE } from 'constants/cookies';
 
 import { getTranslations } from 'utils/getTranslations';
@@ -20,7 +20,7 @@ export default function RootPage({ account }: Props): JSX.Element {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace(account ? MY_FEED_URL : ALL_FEED_URL);
+    router.replace(account ? SPACE_RANCH_URL : ALL_FEED_URL);
   }, [account, router]);
 
   return <div />;
