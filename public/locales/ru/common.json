@@ -18,6 +18,8 @@
   "bounties": "Работа",
   "transfers": "Трансферы",
   "polls": "Опросы",
+  "treasury": "казна",
+  "organization": "организация",
   "groups": "Группы",
   "activeProposals": "активные предложения",
   "function calls": "Вызов функций",

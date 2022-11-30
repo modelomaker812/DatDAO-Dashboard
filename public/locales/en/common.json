@@ -18,6 +18,8 @@
   "bounties": "Bounties",
   "transfers": "Transfers",
   "polls": "Polls",
+  "treasury": "Treasury",
+  "organization": "Organization",
   "groups": "Groups",
   "activeProposals": "active proposals",
   "function calls": "Function Calls",

@@ -1,5 +1,12 @@
 export const MAIN_PAGE_URL = '/';
 
+export const MEMBERS_URL = '/members';
+export const BOUNTIES_URL = '/bounties';
+export const PROPOSALS_URL = '/proposals';
+export const POLLS_URL = '/polls';
+export const TREASUREY_URL = '/treasury';
+export const ORGANIZATION_URL = '/organization';
+
 export const MY_DAOS_URL = '/my/daos';
 export const MY_FEED_URL = '/my/feed';
 
@@ -11,7 +18,6 @@ export const DISCOVER = '/discover';
 export const CFC_LIBRARY = '/cfc-library';
 export const CFC_LIBRARY_TEMPLATE_VIEW = `${CFC_LIBRARY}/[template]`;
 
-export const BOUNTIES = '/bounties';
 
 export const CREATE_DAO_URL = '/create-dao-new';
 

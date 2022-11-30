@@ -48,19 +48,61 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
     if (accountId) {
       return (
         <>
-          <NavItem
+          {/* <NavItem
             label={t('myFeed')}
             icon="myFeed"
             className={styles.item}
             myDaosIds={myDaosIds}
             href={MY_FEED_URL}
-          />
+          /> */}
           <NavItem
             label={t('myDaos')}
             icon="myDaos"
             className={styles.item}
             myDaosIds={myDaosIds}
             href={MY_DAOS_URL}
+          />
+          <NavItem
+            label={t('members')}
+            icon="filterMembers"
+            className={styles.item}
+            myDaosIds={myDaosIds}
+            href={MY_FEED_URL}
+          />
+          <NavItem
+            label={t('bounties')}
+            icon="aBounties"
+            className={styles.item}
+            myDaosIds={myDaosIds}
+            href={MY_FEED_URL}
+          />
+          <NavItem
+            label={t('proposals')}
+            icon="proposalBounty"
+            className={styles.item}
+            myDaosIds={myDaosIds}
+            href={MY_FEED_URL}
+          />
+          <NavItem
+            label={t('polls')}
+            icon="polls"
+            className={styles.item}
+            myDaosIds={myDaosIds}
+            href={MY_FEED_URL}
+          />
+          <NavItem
+            label={t('treasury')}
+            icon="stateTreasury"
+            className={styles.item}
+            myDaosIds={myDaosIds}
+            href={MY_FEED_URL}
+          />
+          <NavItem
+            label={t('organization')}
+            icon="organization"
+            className={styles.item}
+            myDaosIds={myDaosIds}
+            href={MY_FEED_URL}
           />
         </>
       );
@@ -114,14 +156,14 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
         </div>
         <div>
           {renderHomeNavItem()}
-          {renderAllCommunities()}
-          <NavItem
+          {/* {renderAllCommunities()} */}
+          {/* <NavItem
             className={styles.item}
             myDaosIds={myDaosIds}
             onClick={createDao}
             label={t('createNewDao')}
             icon="createNewDao"
-          />
+          /> */}
         </div>
       </div>
       {/* <AppFooter /> */}
