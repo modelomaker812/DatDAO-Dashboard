@@ -52,9 +52,13 @@
 }
 
 .primary {
-  background: var(--color-neutral-90);
+  background: #D70037;
   color: var(--color-white);
   transition: 0.2s;
+
+  &:hover {
+    background: #C7A161;
+  }
 
   &:disabled {
     background: var(--color-neutral-50);

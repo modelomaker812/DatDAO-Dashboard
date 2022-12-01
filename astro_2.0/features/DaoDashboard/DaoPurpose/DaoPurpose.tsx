@@ -1,9 +1,9 @@
-import React, { FC } from 'react';
 import cn from 'classnames';
 import { Icon } from 'components/Icon';
+import { FC } from 'react';
 
-import { useMedia, useToggle } from 'react-use';
 import AnimateHeight from 'react-animate-height';
+import { useMedia, useToggle } from 'react-use';
 
 import { DAO } from 'types/dao';
 
@@ -28,7 +28,7 @@ export const DaoPurpose: FC<Props> = ({ description, className, links }) => {
   function renderContent() {
     return (
       <div className={styles.content}>
-        <div>{description || 'DAO Links'}</div>
+        <div className={styles.title}>{description || 'DAO Links'}</div>
         {links && (
           <div
             className={cn(styles.links, {

@@ -1,8 +1,8 @@
-import React from 'react';
-import { useModal } from 'components/modal';
 import { WalletSelectionModal } from 'astro_2.0/components/AppHeader/components/AccountDropdown/components/WalletSelectionModal';
-import { useWalletContext } from 'context/WalletContext';
 import { Button } from 'components/button/Button';
+import { useModal } from 'components/modal';
+import { useWalletContext } from 'context/WalletContext';
+import React from 'react';
 
 import styles from './LoginButton.module.scss';
 
@@ -14,7 +14,7 @@ export const LoginButton: React.FC = () => {
 
   return (
     <Button
-      variant="green"
+      variant="primary"
       size="small"
       capitalize
       disabled={connectingToWallet}
