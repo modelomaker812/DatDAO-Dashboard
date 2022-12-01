@@ -1,7 +1,7 @@
 @import 'styles/mixins';
 
 .root {
-  --app-background: var(--color-neutral-10);
+  --app-background: #0A3249;
   background-color: var(--app-background);
   display: flex;
   position: relative;
@@ -38,7 +38,7 @@
 
 .content {
   width: 100%;
-  background-color: #0D607E;
+  background-color: #22465b;
   
   &.withFixedHeader {
     padding-top: var(--app-header-height);
