@@ -1,13 +1,11 @@
-import React, { useMemo } from 'react';
 import Head from 'next/head';
+import { useMemo } from 'react';
 
 import { PaginationResponse } from 'types/api';
-import { Proposal } from 'types/proposal';
 import { DaoContext } from 'types/context';
+import { Proposal } from 'types/proposal';
 
 import { DaoDashboard } from 'astro_2.0/features/DaoDashboard';
-import { DaoDashboardHeader } from 'astro_2.0/features/DaoDashboardHeader';
-import { NestedDaoPageWrapper } from 'astro_2.0/features/pages/nestedDaoPagesContent/NestedDaoPageWrapper';
 
 import { useGetBreadcrumbsConfig } from 'hooks/useGetBreadcrumbsConfig';
 
@@ -15,6 +13,7 @@ import { Page } from 'pages/_app';
 
 import { useAppVersion } from 'hooks/useAppVersion';
 
+import { MainLayout } from 'astro_2.0/features/MainLayout';
 import styles from './DaoPage.module.scss';
 
 interface DaoHomeProps {
@@ -42,7 +41,7 @@ const DAOHome: Page<DaoHomeProps> = ({
       <Head>
         <title>DAO Main Page</title>
       </Head>
-      <NestedDaoPageWrapper
+      {/* <NestedDaoPageWrapper
         daoContext={daoContext}
         breadcrumbs={appVersion === 3 ? undefined : breadcrumbs}
         className={styles.pageWrapper}
@@ -62,7 +61,14 @@ const DAOHome: Page<DaoHomeProps> = ({
           key={`dashboard_${dao.id}`}
           className={styles.dashboard}
         />
-      </NestedDaoPageWrapper>
+      </NestedDaoPageWrapper> */}
+      <MainLayout>
+        <DaoDashboard
+          daoContext={daoContext}
+          key={`dashboard_${dao.id}`}
+          className={styles.dashboard}
+        />
+      </MainLayout>
     </>
   );
 };

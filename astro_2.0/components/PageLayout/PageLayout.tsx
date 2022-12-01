@@ -6,7 +6,10 @@ import Tooltip from 'react-tooltip';
 
 import { CREATE_DAO_URL } from 'constants/routing';
 
-import { AppHeader, AppHeader as AppHeaderNext } from 'astro_2.0/components/AppHeader';
+import {
+  AppHeader,
+  AppHeader as AppHeaderNext
+} from 'astro_2.0/components/AppHeader';
 import { LinkToTop } from 'astro_2.0/components/LinkToTop';
 import { MaintenanceWarning } from 'astro_2.0/components/MaintenanceWarning';
 import { Sidebar as SidebarNext } from 'astro_3.0/features/Sidebar';
