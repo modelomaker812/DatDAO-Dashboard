@@ -104,7 +104,7 @@ export const NestedDaoPageWrapper: FC<NestedDaoPageWrapperProps> = props => {
       {header && header(onCreateProposal)}
       <MainLayout>
         <div className={cn(styles.root, className)}>
-          {renderBreadcrumbs()}
+          {/* {renderBreadcrumbs()}
           <DaoDetailsMinimized
             dao={dao}
             className={styles.dao}
@@ -122,7 +122,7 @@ export const NestedDaoPageWrapper: FC<NestedDaoPageWrapperProps> = props => {
           <PolicyAffectedWarning
             data={policyAffectsProposals}
             className={styles.warningWrapper}
-          />
+          /> */}
           {renderChildren()}
         </div>
       </MainLayout>
