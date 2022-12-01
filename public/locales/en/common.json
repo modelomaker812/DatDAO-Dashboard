@@ -19,6 +19,7 @@
   "bounties": "Bounties",
   "transfers": "Transfers",
   "polls": "Polls",
+  "proposals": "Proposals",
   "treasury": "Treasury",
   "organization": "Organization",
   "groups": "Groups",
@@ -119,7 +120,7 @@
         "active": "active",
         "activePlural": "active",
         "proposal": "proposal",
-        "proposals": "proposals",
+        "proposals": "Proposals",
         "proposalsInTotal": "proposals in total",
         "createProposal": "Create proposal"
       }
