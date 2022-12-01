@@ -10,6 +10,13 @@ import {
   DISCOVER,
   MY_DAOS_URL,
   MY_FEED_URL,
+  SPACE_RANCH_URL,
+  MEMBERS_URL,
+  BOUNTIES_URL,
+  PROPOSALS_URL,
+  POLLS_URL,
+  TREASUREY_URL,
+  ORGANIZATION_URL
 } from 'constants/routing';
 
 import { useWalletContext } from 'context/WalletContext';
@@ -54,55 +61,62 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
             className={styles.item}
             myDaosIds={myDaosIds}
             href={MY_FEED_URL}
-          /> */}
+          />
           <NavItem
             label={t('myDaos')}
             icon="myDaos"
             className={styles.item}
             myDaosIds={myDaosIds}
             href={MY_DAOS_URL}
+          /> */}
+          <NavItem
+            label={t('home')}
+            icon="sidebarHome"
+            className={styles.item}
+            myDaosIds={myDaosIds}
+            href={SPACE_RANCH_URL}
           />
           <NavItem
             label={t('members')}
             icon="filterMembers"
             className={styles.item}
             myDaosIds={myDaosIds}
-            href={MY_FEED_URL}
+            href={MEMBERS_URL}
           />
           <NavItem
             label={t('bounties')}
             icon="sidebarBounties"
             className={styles.item}
             myDaosIds={myDaosIds}
-            href={MY_FEED_URL}
+            href={BOUNTIES_URL}
           />
           <NavItem
             label={t('proposals')}
             icon="proposalBounty"
             className={styles.item}
             myDaosIds={myDaosIds}
-            href={MY_FEED_URL}
+            href={PROPOSALS_URL}
           />
           <NavItem
             label={t('polls')}
             icon="polls"
             className={styles.item}
             myDaosIds={myDaosIds}
-            href={MY_FEED_URL}
+            href={POLLS_URL}
           />
           <NavItem
             label={t('treasury')}
             icon="stateTreasury"
             className={styles.item}
             myDaosIds={myDaosIds}
-            href={MY_FEED_URL}
+            href={TREASUREY_URL}
           />
           <NavItem
             label={t('organization')}
             icon="organization"
             className={styles.item}
             myDaosIds={myDaosIds}
-            href={MY_FEED_URL}
+            href={ORGANIZATION_URL}
           />
         </>
       );
@@ -156,8 +170,8 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
         </div>
         <div>
           {renderHomeNavItem()}
-          {/* {renderAllCommunities()} */}
-          {/* <NavItem
+          {/* {renderAllCommunities()}
+          <NavItem
             className={styles.item}
             myDaosIds={myDaosIds}
             onClick={createDao}
