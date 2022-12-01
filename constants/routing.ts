@@ -1,12 +1,13 @@
 export const MAIN_PAGE_URL = '/';
 export const SPACE_RANCH_URL = '/dao/spaceranch.sputnikv2.testnet';
 
+export const NFTS_URL = `${SPACE_RANCH_URL}/treasury/nfts`;
 export const MEMBERS_URL = `${SPACE_RANCH_URL}/groups/all`;
 export const BOUNTIES_URL = `${SPACE_RANCH_URL}/tasks/bounties/list`;
 export const PROPOSALS_URL = `${SPACE_RANCH_URL}/proposals`;
 export const POLLS_URL = `${SPACE_RANCH_URL}/tasks/polls`;
-export const TREASUREY_URL = '/treasury';
-export const ORGANIZATION_URL = '/organization';
+export const TREASUREY_URL = `${SPACE_RANCH_URL}/treasury/tokens`;
+export const ORGANIZATION_URL = `${SPACE_RANCH_URL}/governance/settings`;
 
 export const MY_DAOS_URL = '/my/daos';
 export const MY_FEED_URL = '/my/feed';

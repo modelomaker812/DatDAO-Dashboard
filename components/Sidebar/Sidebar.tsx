@@ -6,7 +6,7 @@ import { forwardRef, useCallback } from 'react';
 import {
   ALL_FEED_URL, BOUNTIES_URL, CFC_LIBRARY,
   CREATE_DAO_URL,
-  DISCOVER, MEMBERS_URL, ORGANIZATION_URL, POLLS_URL, PROPOSALS_URL, SPACE_RANCH_URL, TREASUREY_URL
+  DISCOVER, MEMBERS_URL, ORGANIZATION_URL, POLLS_URL, PROPOSALS_URL, SPACE_RANCH_URL, TREASUREY_URL, NFTS_URL
 } from 'constants/routing';
 
 import { useWalletContext } from 'context/WalletContext';
@@ -62,6 +62,13 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
             className={styles.item}
             myDaosIds={myDaosIds}
             href={SPACE_RANCH_URL}
+          />
+          <NavItem
+            label={t('Digital Assets')}
+            icon="sidebarHome"
+            className={styles.item}
+            myDaosIds={myDaosIds}
+            href={NFTS_URL}
           />
           <NavItem
             label={t('members')}
