@@ -1,18 +1,17 @@
 import cn from 'classnames';
-import { useRouter } from 'next/router';
-import React, { FC } from 'react';
-import Tooltip from 'react-tooltip';
 import { useFlags } from 'launchdarkly-react-client-sdk';
+import { useRouter } from 'next/router';
+import { FC } from 'react';
+import Tooltip from 'react-tooltip';
 
 import { CREATE_DAO_URL } from 'constants/routing';
 
+import { AppHeader, AppHeader as AppHeaderNext } from 'astro_2.0/components/AppHeader';
+import { LinkToTop } from 'astro_2.0/components/LinkToTop';
+import { MaintenanceWarning } from 'astro_2.0/components/MaintenanceWarning';
 import { Sidebar as SidebarNext } from 'astro_3.0/features/Sidebar';
 import { Sidebar } from 'components/Sidebar';
-import { AppHeader } from 'astro_2.0/components/AppHeader';
-import { AppHeader as AppHeaderNext } from 'astro_3.0/features/AppHeader';
-import { LinkToTop } from 'astro_2.0/components/LinkToTop';
 import { NotificationContainer } from 'features/notifications';
-import { MaintenanceWarning } from 'astro_2.0/components/MaintenanceWarning';
 
 import styles from './PageLayout.module.scss';
 

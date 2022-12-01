@@ -1,14 +1,12 @@
 import cn from 'classnames';
-import React, { FC, useRef } from 'react';
 import { useTranslation } from 'next-i18next';
+import { FC, useRef } from 'react';
 
-import { useWalletContext } from 'context/WalletContext';
 import { FEATURE_FLAGS } from 'constants/featureFlags';
+import { useWalletContext } from 'context/WalletContext';
 
-import { AppHealth } from 'astro_2.0/features/AppHealth';
-import { Icon } from 'components/Icon';
 import { AccountDropdown } from 'astro_2.0/components/AppHeader/components/AccountDropdown';
-import { SearchBar } from './components/SearchBar';
+import { AppHealth } from 'astro_2.0/features/AppHealth';
 import { NotificationsBell } from './components/NotificationsBell';
 
 import styles from './AppHeader.module.scss';
@@ -41,12 +39,6 @@ export const AppHeader: FC = () => {
       {renderLogo()}
       <div className={centralPartClassName} ref={centralEl}>
         {renderLogo(styles.mobileLogo)}
-        <SearchBar
-          withSideBar
-          placeholder={t('header.search.placeholder')}
-          parentElRef={centralEl}
-          className={styles.search}
-        />
       </div>
       <AppHealth />
       {!!accountId && <NotificationsBell className={styles.bell} />}
