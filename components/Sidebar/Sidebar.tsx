@@ -1,30 +1,17 @@
 import cn from 'classnames';
-import { useRouter } from 'next/router';
-import React, { forwardRef, useCallback } from 'react';
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
+import { forwardRef, useCallback } from 'react';
 
 import {
-  ALL_FEED_URL,
-  CFC_LIBRARY,
+  ALL_FEED_URL, BOUNTIES_URL, CFC_LIBRARY,
   CREATE_DAO_URL,
-  DISCOVER,
-  MY_DAOS_URL,
-  MY_FEED_URL,
-  SPACE_RANCH_URL,
-  MEMBERS_URL,
-  BOUNTIES_URL,
-  PROPOSALS_URL,
-  POLLS_URL,
-  TREASUREY_URL,
-  ORGANIZATION_URL
+  DISCOVER, MEMBERS_URL, ORGANIZATION_URL, POLLS_URL, PROPOSALS_URL, SPACE_RANCH_URL, TREASUREY_URL
 } from 'constants/routing';
 
 import { useWalletContext } from 'context/WalletContext';
 import { useDaoIds } from 'hooks/useDaoIds';
 
-import { Logo } from 'components/Logo';
-import { Icon } from 'components/Icon';
-import { AppFooter } from 'astro_2.0/components/AppFooter';
 import { WalletType } from 'types/config';
 import { NavItem } from './components/NavItem';
 
@@ -99,7 +86,7 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
           />
           <NavItem
             label={t('polls')}
-            icon="polls"
+            icon="stateTreasury"
             className={styles.item}
             myDaosIds={myDaosIds}
             href={POLLS_URL}
@@ -113,7 +100,7 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
           />
           <NavItem
             label={t('organization')}
-            icon="organization"
+            icon="stateTreasury"
             className={styles.item}
             myDaosIds={myDaosIds}
             href={ORGANIZATION_URL}
