@@ -18,7 +18,16 @@
   padding-top: 56px;
 }
 
+.caption {
+  color: white;
+}
+
+.name a {
+  color: #d70037;
+}
+
 .header {
+  color: white;
   display: flex;
   flex-direction: column;
   grid-area: header;
@@ -90,6 +99,7 @@
   align-self: center;
   font-family: var(--font-family-tertiary);
   grid-area: label;
+  color: white;
 
   @include tablet-landscape {
     @include font(1.5em, 36px, 500);
@@ -99,7 +109,7 @@
 .filter {
   @extend %title3;
   align-items: center;
-  color: var(--color-primary-50);
+  color: white;
   display: flex;
   grid-area: filter;
   justify-content: flex-end;
