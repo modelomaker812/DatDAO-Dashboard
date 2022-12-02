@@ -1,16 +1,15 @@
-import React, { Children, cloneElement, isValidElement, FC } from 'react';
-import useQuery from 'hooks/useQuery';
 import cn from 'classnames';
+import useQuery from 'hooks/useQuery';
+import { Children, cloneElement, FC, isValidElement } from 'react';
 
-import { DaoContext } from 'types/context';
-import { ProposalVariant } from 'types/proposal';
-import { ViewToggle } from 'astro_2.0/features/Bounties/components/ViewToggle';
-import { Dropdown } from 'components/Dropdown';
-import { CreateProposalProps } from 'astro_2.0/features/CreateProposal';
 import {
   BOUNTIES_PAGE_FILTER_OPTIONS,
-  BOUNTIES_PAGE_SORT_OPTIONS,
+  BOUNTIES_PAGE_SORT_OPTIONS
 } from 'astro_2.0/features/Bounties/helpers';
+import { CreateProposalProps } from 'astro_2.0/features/CreateProposal';
+import { Dropdown } from 'components/Dropdown';
+import { DaoContext } from 'types/context';
+import { ProposalVariant } from 'types/proposal';
 
 import { useDaoCustomTokens } from 'context/DaoTokensContext';
 
@@ -87,12 +86,12 @@ export const BountiesPageContent: FC<BountiesPageContentProps> = ({
             </div>
           </div>
         )}
-        <ViewToggle
+        {/* <ViewToggle
           dao={dao}
           className={cn(styles.toggle, {
             [styles.alignRight]: hideFilters,
           })}
-        />
+        /> */}
       </div>
       {renderChildren()}
     </div>
