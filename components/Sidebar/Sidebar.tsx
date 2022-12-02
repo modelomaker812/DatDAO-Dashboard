@@ -4,9 +4,18 @@ import { useRouter } from 'next/router';
 import { forwardRef, useCallback } from 'react';
 
 import {
-  ALL_FEED_URL, BOUNTIES_URL, CFC_LIBRARY,
+  ALL_FEED_URL,
+  BOUNTIES_URL,
+  CFC_LIBRARY,
   CREATE_DAO_URL,
-  DISCOVER, MEMBERS_URL, ORGANIZATION_URL, POLLS_URL, PROPOSALS_URL, SPACE_RANCH_URL, TREASUREY_URL, NFTS_URL
+  DISCOVER,
+  MEMBERS_URL,
+  NFTS_URL,
+  ORGANIZATION_URL,
+  POLLS_URL,
+  PROPOSALS_URL,
+  SPACE_RANCH_URL,
+  TREASUREY_URL
 } from 'constants/routing';
 
 import { useWalletContext } from 'context/WalletContext';
@@ -83,6 +92,7 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
             className={styles.item}
             myDaosIds={myDaosIds}
             href={BOUNTIES_URL}
+            isBlank
           />
           <NavItem
             label={t('proposals')}

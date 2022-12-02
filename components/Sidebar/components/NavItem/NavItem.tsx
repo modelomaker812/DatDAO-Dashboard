@@ -1,18 +1,12 @@
-import React, {
-  FC,
-  useState,
-  ReactNode,
-  useCallback,
-  HTMLAttributes,
-} from 'react';
-import { useRouter } from 'next/router';
 import cn from 'classnames';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { ParsedUrlQueryInput } from 'querystring';
+import { FC, HTMLAttributes, ReactNode, useCallback, useState } from 'react';
 
+import { DotsLoader } from 'astro_2.0/components/DotsLoader';
 import { Badge } from 'components/Badge';
 import { Icon, IconName } from 'components/Icon';
-import { DotsLoader } from 'astro_2.0/components/DotsLoader';
 
 import { useIsHrefActive } from 'hooks/useIsHrefActive';
 import { useOnRouterChange } from 'hooks/useOnRouterChange';
@@ -33,6 +27,7 @@ interface NavItemProps extends HTMLAttributes<HTMLAnchorElement> {
   bottomDelimiter?: boolean;
   subHrefs?: string[];
   myDaosIds: string[];
+  isBlank?: boolean;
   onClick?: () => void;
 }
 
@@ -49,6 +44,7 @@ export const NavItem: FC<NavItemProps> = ({
   subHrefs = [],
   myDaosIds,
   onClick,
+  isBlank,
   children,
 }) => {
   const router = useRouter();
@@ -107,7 +103,21 @@ export const NavItem: FC<NavItemProps> = ({
       </>
     );
 
-    if (href) {
+    if (href && isBlank) {
+      return (
+        <Link
+          target="_blank"
+          href={{ pathname: href, query: urlParams }}
+          passHref
+        >
+          <a target="_blank" href="*" {...props}>
+            {content}
+          </a>
+        </Link>
+      );
+    }
+
+    if (href && !isBlank) {
       return (
         <Link href={{ pathname: href, query: urlParams }} passHref>
           <a href="*" {...props}>

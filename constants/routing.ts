@@ -3,7 +3,7 @@ export const SPACE_RANCH_URL = '/dao/spaceranch.sputnikv2.testnet';
 
 export const NFTS_URL = `${SPACE_RANCH_URL}/treasury/nfts`;
 export const MEMBERS_URL = `${SPACE_RANCH_URL}/groups/all`;
-export const BOUNTIES_URL = `${SPACE_RANCH_URL}/tasks/bounties/list`;
+export const BOUNTIES_URL = `https://app.dework.xyz/spaceranch`;
 export const PROPOSALS_URL = `${SPACE_RANCH_URL}/proposals`;
 export const POLLS_URL = `${SPACE_RANCH_URL}/tasks/polls`;
 export const TREASUREY_URL = `${SPACE_RANCH_URL}/treasury/tokens`;
@@ -19,7 +19,6 @@ export const DISCOVER = '/discover';
 
 export const CFC_LIBRARY = '/cfc-library';
 export const CFC_LIBRARY_TEMPLATE_VIEW = `${CFC_LIBRARY}/[template]`;
-
 
 export const CREATE_DAO_URL = '/create-dao-new';
 
