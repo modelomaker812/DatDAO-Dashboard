@@ -74,7 +74,7 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
           />
           <NavItem
             label={t('Digital Assets')}
-            icon="sidebarHome"
+            icon="nfts"
             className={styles.item}
             myDaosIds={myDaosIds}
             href={NFTS_URL}
@@ -96,14 +96,14 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
           />
           <NavItem
             label={t('proposals')}
-            icon="proposalBounty"
+            icon="pencil"
             className={styles.item}
             myDaosIds={myDaosIds}
             href={PROPOSALS_URL}
           />
           <NavItem
             label={t('polls')}
-            icon="stateTreasury"
+            icon="proposalPoll"
             className={styles.item}
             myDaosIds={myDaosIds}
             href={POLLS_URL}
@@ -117,7 +117,7 @@ export const Sidebar = forwardRef<HTMLElement, SidebarProps>((props, ref) => {
           />
           <NavItem
             label={t('organization')}
-            icon="stateTreasury"
+            icon="delegate"
             className={styles.item}
             myDaosIds={myDaosIds}
             href={ORGANIZATION_URL}

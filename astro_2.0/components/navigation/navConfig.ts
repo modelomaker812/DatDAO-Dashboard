@@ -20,8 +20,8 @@ export const HOME_CONFIG: NavItemProps = {
 };
 
 export const NFT_CONFIG: NavItemProps = {
-  icon: 'sidebarHome',
-  hoverIcon: 'sidebarHome',
+  icon: 'nfts',
+  hoverIcon: 'nfts',
   href: NFTS_URL,
   label: 'Digital Assets',
   authRequired: true,
@@ -44,16 +44,16 @@ export const BOUNTIES_CONFIG: NavItemProps = {
 };
 
 export const PROPOSALS_CONFIG: NavItemProps = {
-  icon: 'proposalBounty',
-  hoverIcon: 'proposalBounty',
+  icon: 'pencil',
+  hoverIcon: 'pencil',
   href: PROPOSALS_URL,
   label: 'Proposals',
   authRequired: true,
 };
 
 export const POLLS_CONFIG: NavItemProps = {
-  icon: 'stateTreasury',
-  hoverIcon: 'stateTreasury',
+  icon: 'proposalPoll',
+  hoverIcon: 'proposalPoll',
   href: POLLS_URL,
   label: 'Polls',
   authRequired: true,
@@ -68,8 +68,8 @@ export const TREASURY_CONFIG: NavItemProps = {
 };
 
 export const ORGANIZATION_CONFIG: NavItemProps = {
-  icon: 'stateTreasury',
-  hoverIcon: 'stateTreasury',
+  icon: 'delegate',
+  hoverIcon: 'delegate',
   href: ORGANIZATION_URL,
   label: 'Organization',
   authRequired: true,
