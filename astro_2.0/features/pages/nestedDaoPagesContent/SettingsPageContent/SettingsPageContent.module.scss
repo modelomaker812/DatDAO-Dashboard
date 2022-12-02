@@ -27,6 +27,7 @@
 }
 
 .titleRow {
+  color: white;
   @extend %heading1;
   grid-area: title;
   margin-top: 12px;
