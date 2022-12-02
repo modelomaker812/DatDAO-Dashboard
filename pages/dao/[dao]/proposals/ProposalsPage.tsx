@@ -33,7 +33,8 @@ const ProposalsPage: VFC<ProposalsPageProps> = props => {
     fallback,
   } = props;
 
-  const { useOpenSearchDataApi } = useFlags();
+  // const { useOpenSearchDataApi } = useFlags();
+  const useOpenSearchDataApi = false;
   const { t } = useTranslation();
   const breadcrumbsConfig = useGetBreadcrumbsConfig(dao.id, dao.displayName);
 
