@@ -1,20 +1,19 @@
-import React, { FC } from 'react';
 import cn from 'classnames';
 import { useTranslation } from 'next-i18next';
+import { FC } from 'react';
 
-import { StatCard } from 'astro_2.0/features/DaoDashboard/components/StatCard';
-import { StatPanel } from 'astro_2.0/features/DaoDashboard/components/StatPanel';
-import { StatChart } from 'astro_2.0/features/DaoDashboard/components/StatChart';
-import { DashboardChart } from 'astro_2.0/features/DaoDashboard/components/DashboardChart';
-import { Loader } from 'components/loader';
 import { NoResultsView } from 'astro_2.0/components/NoResultsView';
+import { DashboardChart } from 'astro_2.0/features/DaoDashboard/components/DashboardChart';
+import { StatCard } from 'astro_2.0/features/DaoDashboard/components/StatCard';
+import { StatChart } from 'astro_2.0/features/DaoDashboard/components/StatChart';
+import { StatPanel } from 'astro_2.0/features/DaoDashboard/components/StatPanel';
+import { Loader } from 'components/loader';
 
 import { useDaoDashboardData } from 'astro_2.0/features/DaoDashboard/hooks';
 import { formatCurrency } from 'utils/formatCurrency';
 
 import { DaoContext } from 'types/context';
 
-import { DaoPurpose } from 'astro_2.0/features/DaoDashboard/DaoPurpose';
 
 import styles from './DaoDashboard.module.scss';
 
@@ -51,11 +50,11 @@ export const DaoDashboard: FC<DaoDashboardProps> = ({
 
   return (
     <div className={cn(styles.root, className)}>
-      <DaoPurpose
+      {/* <DaoPurpose
         links={dao.links}
         description={dao.description}
         className={styles.descriptionSection}
-      />
+      /> */}
 
       <div className={styles.chart}>{renderChart()}</div>
       <StatCard
