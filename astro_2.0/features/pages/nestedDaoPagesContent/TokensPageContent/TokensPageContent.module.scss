@@ -19,7 +19,7 @@
 }
 
 .caption {
-  color: white;
+  color: black;
 }
 
 .name a {
@@ -27,7 +27,7 @@
 }
 
 .header {
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   grid-area: header;
@@ -109,7 +109,7 @@
 .filter {
   @extend %title3;
   align-items: center;
-  color: white;
+  color: black;
   display: flex;
   grid-area: filter;
   justify-content: flex-end;
