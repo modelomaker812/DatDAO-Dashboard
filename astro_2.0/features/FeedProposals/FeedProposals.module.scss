@@ -20,8 +20,9 @@
 }
 
 .statusFilterWrapper {
-  @include wide-background;
-  padding: 56px 0 0;
+  // @include wide-background;
+  background-color: white;
+  padding: 56px 20px 0px 20px;
   position: sticky;
   top: 40px;
   width: 100%;
@@ -100,6 +101,7 @@
   @media screen and (max-width: #{breakpoints.$screen-lg}px) {
     display: none;
   }
+  color:black
 }
 
 .filterByProposer {
@@ -156,6 +158,7 @@
 
 .sideFilter {
   max-height: 184px;
+  background-color: white;
 }
 
 .sidebar {
