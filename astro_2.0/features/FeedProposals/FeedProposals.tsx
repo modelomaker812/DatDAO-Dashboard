@@ -263,7 +263,7 @@ export const FeedProposals = ({
 
       <div className={styles.container}>
         <div className={styles.sidebar}>
-          <SideFilter
+          {/* <SideFilter
             className={styles.sideFilter}
             queryName="status"
             list={statusFilterOptions as ListItem[]}
@@ -271,8 +271,8 @@ export const FeedProposals = ({
             disabled={proposalsDataIsLoading}
             titleClassName={styles.statusFilterTitle}
             shallowUpdate
-          />
-          <div className={styles.filterByProposer}>
+          /> */}
+          {/* <div className={styles.filterByProposer}>
             <p className={styles.filterByProposerTitle}>
               {t('filterByProposer')}
             </p>
@@ -289,7 +289,7 @@ export const FeedProposals = ({
               showResults
               renderResult={item => renderResultItem(item)}
             />
-          </div>
+          </div> */}
         </div>
         <div className={styles.feedContainer}>
           {chips.length ? (
