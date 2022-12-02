@@ -7,7 +7,6 @@ import { useWalletContext } from 'context/WalletContext';
 
 import { AccountDropdown } from 'astro_2.0/components/AppHeader/components/AccountDropdown';
 import { AppHealth } from 'astro_2.0/features/AppHealth';
-import { NotificationsBell } from './components/NotificationsBell';
 
 import styles from './AppHeader.module.scss';
 
@@ -41,7 +40,6 @@ export const AppHeader: FC = () => {
         {renderLogo(styles.mobileLogo)}
       </div>
       <AppHealth />
-      {!!accountId && <NotificationsBell className={styles.bell} />}
       <AccountDropdown />
     </header>
   );
