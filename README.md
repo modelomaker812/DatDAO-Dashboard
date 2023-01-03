@@ -1,6 +1,9 @@
 <p style="text-align:center"> 
 
 # DatDAO-Dashbord
+  <p align="justify">
+  Lorem ipsum
+</p>
 ## datdao.sputnikv2.testnet 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/modelomaker812/DatDAO-Dashboard?style=plastic)
