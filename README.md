@@ -4,7 +4,9 @@
 
 ## datdao.sputnikv2.testnet 
 
-[![Built On NEAR](https://raw.githubusercontent.com/modelomaker812/DatDAO-Dashboard/master/assets/icons/built.svg)]
+<img src="https://raw.githubusercontent.com/modelomaker812/DatDAO-Dashboard/master/assets/icons/built.svg" width="200" height="100">
+
+![Built On NEAR](https://raw.githubusercontent.com/modelomaker812/DatDAO-Dashboard/master/assets/icons/built.svg)
 
 [![Built On NEAR](/assets/icons/built.svg "Built On NEAR")]()
 
