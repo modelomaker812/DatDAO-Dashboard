@@ -1,17 +1,15 @@
 # DatDAO-Dashbord
 
-![GitHub last commit](https://img.shields.io/github/last-commit/modelomaker812/DatDAO-Dashboard?style=plastic)
-
-## datdao.sputnikv2.testnet 
+![GitHub last commit](https://img.shields.io/github/last-commit/modelomaker812/DatDAO-Dashboard?style=plastic) 
 
 <img src="https://raw.githubusercontent.com/modelomaker812/DatDAO-Dashboard/master/assets/icons/built.svg" width="200" height="100">
 
-![Built On NEAR](https://raw.githubusercontent.com/modelomaker812/DatDAO-Dashboard/master/assets/icons/built.svg)
+## datdao.sputnikv2.testnet 
 
-[![Built On NEAR](/assets/icons/built.svg "Built On NEAR")]()
+### Shields & Badges
 
-### 
 ![Travis (.com) branch](https://img.shields.io/travis/com/modelomaker812/DatDAO-Dashboard/master?style=for-the-badge)
+
 [![Build](https://github.com/modelomaker812/DatDAO-Dashboard/actions/workflows/build-deploy.yaml/badge.svg)](https://github.com/modelomaker812/DatDAO-Dashboard/actions/workflows/build-deploy.yaml)
 
 #### Getting Up & Running
