@@ -1,18 +1,7 @@
 # DatDAO-Dashbord
 ## datdao.sputnikv2.testnet 
-<kbd> <br> [Title][Link] <br> </kbd>
 
-[Link]: # 'Link with example title.'
-
-[![Button Icon]][Link]
-
-<!----------------------------------------------------------------------------->
-
-[Link]: # 'Link with example title.'
-
-<!---------------------------------[ Buttons ]--------------------------------->
-
-[Button Icon]: https://img.shields.io/badge/Installation-EF2D5E?style=for-the-badge&logoColor=white&logo=DocuSign
+https://img.shields.io/github/last-commit/modelomaker812/DatDAO-Dashboard?style=social
 
 ### Build & Deploy Status Goes Here
 
