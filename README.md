@@ -4,7 +4,7 @@
 
 ## datdao.sputnikv2.testnet 
 
-### ![GitHub last commit](https://img.shields.io/github/last-commit/modelomaker812/DatDAO-Dashboard?style=plastic)
+### [![Build](https://github.com/modelomaker812/DatDAO-Dashboard/actions/workflows/build-deploy.yaml/badge.svg)](https://github.com/modelomaker812/DatDAO-Dashboard/actions/workflows/build-deploy.yaml)
 
 #### Getting Up & Running
 
