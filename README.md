@@ -4,6 +4,10 @@
 
 ## datdao.sputnikv2.testnet 
 
+[![Built On NEAR](https://raw.githubusercontent.com/modelomaker812/DatDAO-Dashboard/master/assets/icons/built.svg)]
+
+[![Built On NEAR](/assets/icons/built.svg "Built On NEAR")]()
+
 ### 
 ![Travis (.com) branch](https://img.shields.io/travis/com/modelomaker812/DatDAO-Dashboard/master?style=for-the-badge)
 [![Build](https://github.com/modelomaker812/DatDAO-Dashboard/actions/workflows/build-deploy.yaml/badge.svg)](https://github.com/modelomaker812/DatDAO-Dashboard/actions/workflows/build-deploy.yaml)
