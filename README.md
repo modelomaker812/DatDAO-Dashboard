@@ -1,7 +1,6 @@
 # DatDAO-Dashbord
 ## datdao.sputnikv2.testnet 
-
-https://img.shields.io/github/last-commit/modelomaker812/DatDAO-Dashboard?style=social
+![GitHub last commit](https://img.shields.io/github/last-commit/modelomaker812/DatDAO-Dashboard?style=plastic)
 
 ### Build & Deploy Status Goes Here
 
