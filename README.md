@@ -4,7 +4,9 @@
 
 ## datdao.sputnikv2.testnet 
 
-### [![Build](https://github.com/modelomaker812/DatDAO-Dashboard/actions/workflows/build-deploy.yaml/badge.svg)](https://github.com/modelomaker812/DatDAO-Dashboard/actions/workflows/build-deploy.yaml)
+### 
+![Travis (.com) branch](https://img.shields.io/travis/com/modelomaker812/DatDAO-Dashboard/master?style=for-the-badge)
+[![Build](https://github.com/modelomaker812/DatDAO-Dashboard/actions/workflows/build-deploy.yaml/badge.svg)](https://github.com/modelomaker812/DatDAO-Dashboard/actions/workflows/build-deploy.yaml)
 
 #### Getting Up & Running
 
