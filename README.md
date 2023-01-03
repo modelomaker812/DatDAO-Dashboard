@@ -2,6 +2,8 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/modelomaker812/DatDAO-Dashboard?style=plastic) 
 
+> :memo: **Note:** Sunrises are beautiful.
+ 
 <img src="https://raw.githubusercontent.com/modelomaker812/DatDAO-Dashboard/master/assets/icons/built.svg" width="200" height="100">
 
 ## datdao.sputnikv2.testnet 
